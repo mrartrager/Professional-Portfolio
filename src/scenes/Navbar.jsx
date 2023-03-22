@@ -16,10 +16,10 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
   );
 };
 
-const Navbar = ({ selectedPage, setSelectedPage }) => {
+const Navbar = ({ isTopofPage, selectedPage, setSelectedPage }) => {
   const [isMenuToggled, setisMenuToggled] = useState(false);
   const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
-
+const navbarBackground = isTopofPage ? "" : "bg-red";
   return (
     <nav className="z-40 w-full fixed top-0 py-6">
       <div className="flex itmes-center justify-between mx-auto w-5/6">
@@ -60,6 +60,41 @@ setSelectedPage={setSelectedPage}
         )}
 
 {/*MOBILE NAVBAR*/}
+{!isAboveSmallScreens && isMenuToggled && (
+        <div className='fixed right-0 bottom-0 h-full bg-blue w-[300px]'>
+            <div className='flex justify-end p-12'>
+    <button onClick={() => setisMenuToggled(!isMenuToggled)}>
+    <img alt='close' src="../assets/close-icon.svg"></img>
+    </button>
+            </div>
+
+    <div className='flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue'>
+    <Link 
+page="Home"
+selectedPage={selectedPage}
+setSelectedPage={setSelectedPage}
+/>
+
+<Link 
+page="Skills"
+selectedPage={selectedPage}
+setSelectedPage={setSelectedPage}
+/>
+
+<Link 
+page="Projects"
+selectedPage={selectedPage}
+setSelectedPage={setSelectedPage}
+/>
+
+<Link 
+page="Contact"
+selectedPage={selectedPage}
+setSelectedPage={setSelectedPage}
+/>
+        </div>
+        </div>
+)}
       </div>
     </nav>
   );
