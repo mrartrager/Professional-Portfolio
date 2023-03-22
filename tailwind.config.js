@@ -28,8 +28,7 @@ module.exports = {
 
       content:{
         brush: "url('./assets/brush.png')",
-        brush: "url('./assets/Me1.png')",
-        brush: "url('./assets/Me2.png')"
+        Me: "url('./assets/About.png')",
       }
     },
 
