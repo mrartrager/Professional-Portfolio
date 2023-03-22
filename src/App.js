@@ -1,7 +1,9 @@
 import Navbar from './scenes/Navbar'
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
-import Dots from "./scenes/Dots"
+import Dots from "./scenes/Dots";
+import Landing from "./scenes/Landing"
+
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
   const [isTopofPage, setTopofPage] = useState('true')
@@ -25,11 +27,12 @@ function App() {
     />
     <div className='w-5/6 mx-auto md:h-full'>
   {isAboveMediumScreens && (
-    <Dots className=''
+    <Dots
     selectedPage={selectedPage}
     setSelectedPage={setSelectedPage}
     />
   )}
+  <Landing setSelectedPage={setSelectedPage}/>
     </div>
   </div>
 
