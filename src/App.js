@@ -2,7 +2,9 @@ import Navbar from './scenes/Navbar'
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import Dots from "./scenes/Dots";
-import Landing from "./scenes/Landing"
+import Landing from "./scenes/Landing";
+import MySkills from "./scenes/MySkills";
+import LineGradient from "./components/LineGradient"
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
@@ -33,6 +35,10 @@ function App() {
     />
   )}
   <Landing setSelectedPage={setSelectedPage}/>
+    </div>
+    <LineGradient />
+    <div className='w-5/6 mx-auto md:h-full'>
+    <MySkills/>
     </div>
   </div>
 
