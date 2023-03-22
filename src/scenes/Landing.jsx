@@ -1,6 +1,7 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -52,8 +53,19 @@ const Landing = ({ setSelectedPage }) => {
               Waldron
             </span>
           </p>
-
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
+</motion.div>
+<motion.div
+   className="z-30 basis-2/5 mt-12 md:mt-32"
+   initial="hidden"
+   whileInView="visible"
+   viewport={{ once: true, amount: 0.5 }}
+   transition={{ delay: 0.6, duration: 1.5 }}
+   variants={{
+     hidden: { opacity: 0, x: -50 },
+     visible: { opacity: 1, x: 0 },
+   }}
+>
+          <p className="mt-5 mb-7 text-md text-center md:text-start">
             My name is Matthew Waldron, commonly referred to as Wally. I am a
             multi-faceted individual with experience and passion in front-end
             development, graphic design, are various art mediums.
@@ -63,7 +75,7 @@ const Landing = ({ setSelectedPage }) => {
             user experience and strive to incorporate those elements into my
             workflow.
           </p>
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
+          <p className="mb-7 text-md text-center md:text-start">
             Although my primary focus is on the front-end, I am also
             well-acquainted with the back-end, proficient in the use of Node.Js,
             Express.Js, MySQL, MongoDB, and Mongoose.
@@ -78,8 +90,8 @@ const Landing = ({ setSelectedPage }) => {
         className="flex mt-5 justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.9 }}
-          transition={{ delay: 0.5, duration: 1.5 }}
+          viewport={{ once: true, amount: 0.8 }}
+          transition={{ delay: 0.9, duration: 1.7 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
@@ -99,11 +111,25 @@ className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
 onClick={()=> setSelectedPage('contact')}
 href="#contact"
 >
-<div className="bg-deep-blue">
+<div className="bg-deep-blue hover:text-yellow transition duration-500 w-full h-full flex items-center
+justify-center font-playfair px-10">
   Lets Talk.
 </div>
 </AnchorLink>
+        </motion.div>
 
+        <motion.div
+         className="flex mt-5 justify-center md:justify-start"
+         initial="hidden"
+         whileInView="visible"
+         viewport={{ once: true, amount: 0.8 }}
+         transition={{ delay: 0.9, duration: 1.7 }}
+         variants={{
+           hidden: { opacity: 0, x: -50 },
+           visible: { opacity: 1, x: 0 },
+         }}
+        >
+          <SocialMediaIcons/>
         </motion.div>
       </div>
     </section>
