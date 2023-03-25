@@ -33,16 +33,16 @@ const MySkills = () => {
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-              before:w-full before:h-full before:border-2 before:rounded-3xl before:border-blue before:z-[-1]"
+              before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
             >
               <img
                 alt="skills"
-                className="z-10 rounded-3xl"
-                src="assets/Skills.jpg"
+                className="z-10"
+                src="assets/skills-image.png"
               />
             </div>
           ) : (
-            <img alt="skills" className="z-10" src="assets/Skills.jpg" />
+            <img alt="skills" className="z-10" src="assets/skills-image.png" />
           )}
         </div>
       </div>
@@ -54,8 +54,8 @@ const MySkills = () => {
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.9 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
@@ -65,7 +65,7 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experiance
+                Experience
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
@@ -82,8 +82,8 @@ const MySkills = () => {
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.9 }}
-          transition={{ delay: 0.5, duration: 0.8 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
@@ -110,8 +110,8 @@ const MySkills = () => {
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.9 }}
-          transition={{ delay: 0.7, duration: 0.8 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
