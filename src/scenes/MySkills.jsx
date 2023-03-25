@@ -13,7 +13,7 @@ const MySkills = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1.5 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
@@ -54,10 +54,10 @@ const MySkills = () => {
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
+          viewport={{ once: true, amount: 0.9 }}
+          transition={{delay: 0.2, duration: 1.5 }}
           variants={{
-            hidden: { opacity: 0, y: 50 },
+            hidden: { opacity: 0, y: 60 },
             visible: { opacity: 1, y: 0 },
           }}
         >
@@ -82,10 +82,10 @@ const MySkills = () => {
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.2, duration: 0.5 }}
+          viewport={{ once: true, amount: 0.9 }}
+          transition={{ delay: 0.2, duration: 1.5 }}
           variants={{
-            hidden: { opacity: 0, y: 50 },
+            hidden: { opacity: 0, y: 60 },
             visible: { opacity: 1, y: 0 },
           }}
         >
@@ -110,10 +110,10 @@ const MySkills = () => {
           className="md:w-1/3 mt-10"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay: 0.4, duration: 0.5 }}
+          viewport={{ once: true, amount: 0.9 }}
+          transition={{ delay: 0.4, duration: 0.9 }}
           variants={{
-            hidden: { opacity: 0, y: 50 },
+            hidden: { opacity: 0, y: 60 },
             visible: { opacity: 1, y: 0 },
           }}
         >
