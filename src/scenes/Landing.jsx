@@ -48,7 +48,7 @@ const Landing = ({ setSelectedPage }) => {
             Matthew {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[35px] before:-top-[75px] before:z-[-1]"
+              before:absolute before:-left-[40px] before:-top-[78px] before:z-[-1]"
             >
               Waldron
             </span>
