@@ -6,6 +6,7 @@ import Landing from "./scenes/Landing";
 import MySkills from "./scenes/MySkills";
 import LineGradient from "./components/LineGradient";
 import Projects from "./scenes/Projects";
+import Contact from "./scenes/Contact";
 import { motion } from "framer-motion";
 
 
@@ -76,8 +77,11 @@ function App() {
     <Projects/>
     </motion.div>
     </div>
-
     <LineGradient />
+
+    <div className="w-5/6 mx-auto md:h-full">
+    <Contact />
+    </div>
   </div>
   )
   

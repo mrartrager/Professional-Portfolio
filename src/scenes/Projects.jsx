@@ -73,7 +73,7 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[800px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
           </div>
@@ -102,14 +102,19 @@ const Projects = () => {
           repo="https://github.com/mrartrager/Playable-Piano"
           link="https://mrartrager.github.io/Playable-Piano/"
           />
-          <Project title="Project 5" />
+          <Project 
+          title="Drum Kit" 
+          description="This is a web app that allows a user to play a drum machine with their keyboard."
+          repo="https://github.com/mrartrager/Drum-Kit"
+          link="https://mrartrager.github.io/Drum-Kit/"
+          />
 
           {/* ROW 3 */}
           <Project title="Project 6" />
           <Project title="Project 7" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[800px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             SMOOTH USER EXPERIENCE
           </div>
