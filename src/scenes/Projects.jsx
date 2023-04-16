@@ -21,9 +21,10 @@ const Project = ({ title, description, repo, link }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-xl font-playfair mt-20">{title}</p>
+        <p className="text-2xl font-playfair mt-20">{title}</p>
         <p className="m-5">{description}</p>
-        <a href={repo} target="_blank" className="hover:cursor-pointer mb-20">Github Repo</a>
+        <a href={repo} target="_blank" className="hover:cursor-pointer m-5 hover:text-red hover:scale-110 hover:font-bold">Github Repo</a>
+        <a href={link} target="_blank" className="hover:cursor-pointer hover:text-blue hover:scale-110 hover:font-bold">Deployed Page</a>
       </div>
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
     </motion.div>
@@ -81,11 +82,26 @@ const Projects = () => {
           description="This is a web app that allows a user to create an account, log in, search a large database of games, review and rank games, add their favorite games to thier profile."
         repo="https://github.com/WesleyLere/Gameboxd"
           />
-          <Project title="Project 2" />
-
+          <Project 
+          title="Sign of the Times" 
+          description="Sign of the Times is a web app that lets a user pick a date, the user will be presented with the horoscope for that day, along with a list of famous people born on that day."
+          repo="https://github.com/Nwsheats/Sign-of-the-Times"
+          link="https://nwsheats.github.io/Sign-of-the-Times/"
+          
+          />
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
+          <Project 
+          title="Spudget" 
+          description="Spudget is a web app that allows a user to create an account, log in, create a budget, and track their spending. People can also uploade images of reciets and have taht data update their spending."
+          repo="https://github.com/WesleyLere/Spudget"
+          link="http://www.spudget.net/"
+          />
+          <Project 
+          title="Playable Piano"
+          description="This is a web app that allows a user to play a piano with their keyboard."
+          repo="https://github.com/mrartrager/Playable-Piano"
+          link="https://mrartrager.github.io/Playable-Piano/"
+          />
           <Project title="Project 5" />
 
           {/* ROW 3 */}
