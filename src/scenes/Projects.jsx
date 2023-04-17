@@ -82,8 +82,9 @@ const Projects = () => {
           description="This is a web app that allows a user to create an account, log in, search a large database of games, review and rank games, add their favorite games to thier profile."
           repo="https://github.com/WesleyLere/Gameboxd"
           />
+
           <Project 
-          title="Sign Of The Times" 
+          title="Sign-Of-The-Times" 
           description="Sign of the Times is a web app that lets a user pick a date, the user will be presented with the horoscope for that day, along with a list of famous people born on that day."
           repo="https://github.com/Nwsheats/Sign-of-the-Times"
           link="https://nwsheats.github.io/Sign-of-the-Times/"
@@ -97,13 +98,13 @@ const Projects = () => {
           link="http://www.spudget.net/"
           />
           <Project 
-          title="Playable Piano"
+          title="Playable-Piano"
           description="This is a web app that allows a user to play a piano with their keyboard."
           repo="https://github.com/mrartrager/Playable-Piano"
           link="https://mrartrager.github.io/Playable-Piano/"
           />
           <Project 
-          title="Drum Kit" 
+          title="Drum-Kit" 
           description="This is a web app that allows a user to play a drum machine with their keyboard."
           repo="https://github.com/mrartrager/Drum-Kit"
           link="https://mrartrager.github.io/Drum-Kit/"
