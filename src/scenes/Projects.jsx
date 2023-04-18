@@ -15,7 +15,7 @@ const projectVariant = {
 };
 
 const Project = ({ title, description, repo, link }) => {
-  const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+  const overlayStyles = `absolute h-full w-full hover: opacity-0 hover:opacity-90 hover:bg-yellow transition duration-500
       bg-grey z-30 flex flex-col justify-center items-center text-center p-25 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
   return (
