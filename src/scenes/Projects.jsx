@@ -97,13 +97,13 @@ const Projects = () => {
           link="http://www.spudget.net/"
           />
           <Project 
-          title="Playable-Piano"
+          title="Playable Piano"
           description="This is a web app that allows a user to play a piano with their keyboard."
           repo="https://github.com/mrartrager/Playable-Piano"
           link="https://mrartrager.github.io/Playable-Piano/"
           />
           <Project 
-          title="Drum-Kit" 
+          title="Drum Kit" 
           description="This is a web app that allows a user to play a drum machine with their keyboard."
           repo="https://github.com/mrartrager/Drum-Kit"
           link="https://mrartrager.github.io/Drum-Kit/"
