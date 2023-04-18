@@ -91,7 +91,7 @@ const Projects = () => {
           />
           {/* ROW 2 */}
           <Project 
-          title="Spudget" 
+          title="Budget App" 
           description="Spudget is a web app that allows a user to create an account, log in, create a budget, and track their spending. People can also uploade images of reciets and have taht data update their spending."
           repo="https://github.com/WesleyLere/Spudget"
           link="http://www.spudget.net/"
