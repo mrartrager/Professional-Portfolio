@@ -84,7 +84,7 @@ const Projects = () => {
           />
 
           <Project 
-          title="sign-of-the-times"  
+          title="Sign of the Times"  
           description="Sign of the Times is a web app that lets a user pick a date, the user will be presented with the horoscope for that day, along with a list of famous people born on that day."
           repo="https://github.com/Nwsheats/Sign-of-the-Times"
           link="https://nwsheats.github.io/Sign-of-the-Times/"
