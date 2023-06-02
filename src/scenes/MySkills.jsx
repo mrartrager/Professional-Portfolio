@@ -23,8 +23,10 @@ const MySkills = () => {
             MY <span className="text-red">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7">
-        
+          <p className="mt-10 mb-7 text-lg">
+            React, JavaScript, HTML5, CSS, Bootstrap, Tailwind, Node.js,
+            Express, MongoDB, MySQL, Git, GitHub, Heroku, Netlify, Figma, Adobe
+            XD, Adobe Photoshop, Adobe Illustrator
           </p>
         </motion.div>
 
@@ -54,7 +56,7 @@ const MySkills = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.9 }}
-          transition={{delay: 0.2, duration: 1.5 }}
+          transition={{ delay: 0.2, duration: 1.5 }}
           variants={{
             hidden: { opacity: 0, y: 60 },
             visible: { opacity: 1, y: 0 },
@@ -69,10 +71,8 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+          <p className="mt-5 mb-7 text-lg">
+            Recent graduate of the University of Minnesotas's Full Stack Web Development Bootcamp. I have a passion for creating captivating user experiences and am always looking to learn new skills and technologies. 10 years of graphic design experiance. 
           </p>
         </motion.div>
 
