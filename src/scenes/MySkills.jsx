@@ -23,26 +23,26 @@ const MySkills = () => {
             MY <span className="text-red">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7 text-lg">
-            <ul className="text-yellow">
-              <li>React</li>
-              <li>JavaScript</li>
-              <li>HTML5</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>Tailwind</li>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-              <li>MySQL</li>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>Heroku</li>
-              <li>Netlify</li>
-              <li>Figma</li>
-              <li>Adobe XD</li>
-              <li>Adobe Photoshop</li>
-              <li>Adobe Illustrator</li>
+          <p className="mt-10 mb-7 text-2xl">
+            <ul className="text-yellow m-5">
+              <li className="m-5">React</li>
+              <li className="m-5">JavaScript</li>
+              <li className="m-5">HTML5</li>
+              <li className="m-5">CSS</li>
+              <li className="m-5">Bootstrap</li>
+              <li className="m-5">Tailwind</li>
+              <li className="m-5">Node.js</li>
+              <li className="m-5">Express</li>
+              <li className="m-5">MongoDB</li>
+              <li className="m-5">MySQL</li>
+              <li className="m-5">Git</li>
+              <li className="m-5">GitHub</li>
+              <li className="m-5">Heroku</li>
+              <li className="m-5">Netlify</li>
+              <li className="m-5">Figma</li>
+              <li className="m-5">Adobe XD</li>
+              <li className="m-5">Adobe Photoshop</li>
+              <li className="m-5">Adobe Illustrator</li>
             </ul>
           </p>
         </motion.div>

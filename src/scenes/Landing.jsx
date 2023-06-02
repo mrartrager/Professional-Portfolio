@@ -82,7 +82,7 @@ const Landing = ({ setSelectedPage }) => {
             <br />
             In my leisure time, I enjoy rock climbing, reading, drawing, and
             immersing myself in the latest video games and television shows.
-            Right now I'm watching The Last of Us, and playing God of War.
+            Right now I'm watching Ted Lasso, and playing Tears of the Kingdom.
           </p>
         </motion.div>
 
