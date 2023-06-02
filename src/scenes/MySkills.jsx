@@ -24,9 +24,26 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7 text-lg">
-            React, JavaScript, HTML5, CSS, Bootstrap, Tailwind, Node.js,
-            Express, MongoDB, MySQL, Git, GitHub, Heroku, Netlify, Figma, Adobe
-            XD, Adobe Photoshop, Adobe Illustrator
+            <ul className="text-yellow">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Tailwind</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Heroku</li>
+              <li>Netlify</li>
+              <li>Figma</li>
+              <li>Adobe XD</li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+            </ul>
           </p>
         </motion.div>
 
@@ -72,7 +89,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 mb-7 text-lg">
-            Recent graduate of the University of Minnesotas's Full Stack Web Development Bootcamp. I have a passion for creating captivating user experiences and am always looking to learn new skills and technologies. 10 years of graphic design experiance. 
+            Recent graduate of the University of Minnesotas's Full Stack Web Development Bootcamp. I have a passion for creating captivating user experiences and am always looking to learn new skills and technologies. I also have 10 years of graphic design experiance. 
           </p>
         </motion.div>
 
