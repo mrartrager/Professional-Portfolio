@@ -24,10 +24,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            React, JavaScript, HTML5, CSS, Bootstrap, Tailwind, 
-            <br>Node.js, Express, MongoDB, MySQL,</br> 
-            <br>Git, GitHub, Heroku, Netlify,</br>
-            <br>Figma, Adobe XD, Adobe Photoshop, Adobe Illustrator</br> 
+        
           </p>
         </motion.div>
 
