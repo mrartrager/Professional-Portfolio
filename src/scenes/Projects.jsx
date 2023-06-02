@@ -55,9 +55,10 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+        Here you'll find a collection of projects that I've had the pleasure of building or contributing to. These projects not only represent my skill set but also serve as a testament to my passion for creating captivating user experiences.
+With a strong focus on front-end development, I took charge of building the visually stunning interfaces for each of these projects. From crafting intuitive user flows to designing eye-catching layouts, I was heavily involved in every aspect of UI/UX design.
+Feel free to explore each project by hovering over them. You'll have the option to either visit the live deployed page or delve into the intricacies of the code on GitHub. I believe that seeing these projects in action will provide a comprehensive understanding of my abilities.
+Thank you for taking the time to browse through my portfolio. I hope you find these projects as inspiring as I found them fulfilling to work on.
         </p>
       </motion.div>
 
